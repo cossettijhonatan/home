@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Jhonatan Site</title>
+	<style> 
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+    'header header header'
+    'aside main main'
+    'footer footer footer';
+  max-width: 100%;
+  grid-gap: 5px;
+ 
+}
+header {
+  grid-area: header;
+  background-color: #1C1C1C;
+  font-family: 'Yeon Sung', cursive;;
+  color: white;
+}
+
+header p {
+  text-align: center;
+ 
+}
+section {
+    display: grid;
+  }
+.welcome {
+  background-color: #DCDCDC;
+  grid-templeate-colomns: auto;
+  grid-teampleate-rows: 400px;
+  text-align: center;
+}
+  .about {
+    background-color: #DCDCDC;
+    grid-templeate-columns: 40% 60%;
+    grip-gap: 5px;
+    grid-templeate-rows: auto;
+    text-align: center;
+  }
+.profile-photo {
+  background-color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-description {
+  padding: 10px 20px;
+  background-color: #DCDCDC;
+}
+
+aside {
+  padding: 5px 15px;
+  display: grid;
+  grid-templeate-columns: 40% 60%;
+  grid-area: aside;
+  background-color: #4F4F4F;
+  font-family: 'Hind', sans-serif;
+}
+
+main {
+  grid-area: main;
+  background: #DCDCDC;
+  font-family: 'Hind', sans-serif;
+ 
+}
+
+footer {
+  color: white;
+  grid-area: footer;
+  background-color:#1C1C1C;
+  font-family: 'Supermercado One', cursive;
+  border-radius: 5
+}
+
+footer p {
+  text-align: center;
+}
+
+.botao01{
+     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 115px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+     color: black;
+     display: block;
+     font-family: "Supermercado One";
+     font-size: 10x;
+     font-weight: bold;
+     line-height: 15px;
+     text-align: center;
+     text-decoration: none;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position:center;
+     width: 80px;
+    }
+    </style>
+<head><link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+</head>
+<header>
+  <p>Jhonatan A. Cossetti</p>
+  <nav>
+    <ul>
+      <li> <a href="#" class="botao01">Home</a>
+    </div> </li>
+      <li>  <a href="#" class="botao01">Sobre</a>
+    </div> </li>
+      <li>  <a href="https://github.com/cossettijhonatan?tab=repositories" class="botao01">Portifólio</a>
+</div> </li>
+    </ul>
+  </nav>
+</header>
+
+<aside>
+  <p> Sobre esse site: </p> <p>Esse site tem como objetivo mostrar meu primeiro site apenas, estou aprendendo e não há objetivos comerciais ou profissionais.</p>
+</aside>
+
+<main> 
+  <section class= "welcome"> Olá seja bem-vindo ao meu primeiro site web, nele você vai conhecer melhor sobre mim. Fique à vontade!</section>
+  <section class= "about"> <p> Sobre mim </p> 
+    <p>Nasci em Cachoeiro de Itapemirim, no estado do Espírito Santo em 2000. Filho de agricultor e dona de casa, consegui através do Enem, mudar minha realidade entrando em uma universidade pública de qualidade.</p></section>
+  <section class="profile-photo"> <center> <img src= "https://scontent.fcaw3-1.fna.fbcdn.net/v/t1.0-1/p320x320/67562381_2354061448013148_8254924527276916736_n.jpg?_nc_cat=101&_nc_oc=AQnaZMZFollm7F2jO8mylLazsIYN8hy0AXAZh8Jd5YYNeHnsjadB2nryA7eAeQ0lsjY&_nc_ht=scontent.fcaw3-1.fna&oh=ed87f2f71e1d1a42043b925ed0e53070&oe=5E4D161F"> </center></section>
+  <section class= "profile-description">Ah e você deve estar se perguntando, como você se chama? Meu nome é Jhonatan, tenho 19 anos e atualmente estou no 4º período de Ciência da Computação na Universidade Estadual do Norte Fluminense. </section>
+ 
+</main>
+<footer>
+  <p> By Jhonatan Cossetti 2019</p> 
+</footer> 
+
+</html>>
+    
