@@ -106,7 +106,7 @@ footer p {
      width: 80px;
     }
     </style>
-<html>    
+    
 <head><link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
@@ -116,7 +116,7 @@ footer p {
   <p>Jhonatan A. Cossetti</p>
   <nav>
     <ul>
-      <li> <a href="https://cossettijhonatan.github.io/home/" class="botao01">Home</a>
+      <li> <a href="https://cossettijhonatan.github.io/home" class="botao01">Home</a>
     </div> </li>
       <li>  <a href="https://cossettijhonatan.github.io/myfirstsite-sobre/#" class="botao01">Sobre</a>
     </div> </li>
